@@ -1,0 +1,44 @@
+* {
+  font-family: Arial;
+  font-size: 1.25rem;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  background-color: whitesmoke;
+  height: 100dvh;
+
+  display: grid;
+  grid-template-areas: 
+    "data status"
+    "data ignition"
+  ;
+  grid-template-rows:    1fr auto;
+  grid-template-columns: 1fr auto;
+  padding: clamp(0.1rem, 2dvh, 0.5rem);
+  gap:     clamp(0.1rem, 2dvh, 0.5rem);
+  margin:  0;
+}
+
+.card {
+  background-color: #EEEEEE;
+  box-shadow: 0 0 2px;
+  border-radius: 4px;
+  padding: 0.5rem 0.5rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}

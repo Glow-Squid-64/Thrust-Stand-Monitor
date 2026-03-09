@@ -1,0 +1,60 @@
+.ignition {
+  grid-area: ignition;
+}
+
+.trigger {
+  height: 4rem;
+
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  touch-action: none;
+}
+
+.trigger.button {
+  width: 16rem;
+
+  color: white;
+  border: 0;
+
+  position: relative;
+}
+
+.trigger.text {
+  position: absolute;
+  z-index: 1;
+}
+
+.trigger.safety {
+  width: 4rem;
+
+  background-color: #EEEEEE;
+  border: 2px solid black;
+  color: black;
+
+  position: absolute;
+  left: 0;
+
+  z-index: 2;
+}
+
+.trigger.slider {
+  width: 2rem;
+  
+  position: absolute;
+  left: 0;
+  
+  z-index: 0;
+}
+
+.trigger.progress {
+  position: absolute;
+  left: 0;
+
+  z-index: 0;
+
+  transition: width 3s linear;
+}

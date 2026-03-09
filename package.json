@@ -1,0 +1,17 @@
+{
+  "name": "thrust-stand-monitor",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "html-minifier-terser": "^7.2.0",
+    "lightningcss": "^1.32.0"
+  }
+}

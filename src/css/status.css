@@ -1,0 +1,13 @@
+.status-list {
+  grid-area: status;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-x: visible;
+  overflow-y: auto;
+
+  color: whitesmoke;
+  
+  gap: 0.25rem;
+}

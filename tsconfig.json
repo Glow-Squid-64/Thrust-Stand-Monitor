@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "none",
+    "outFile": "build/script.js",
+    "allowJs": true,
+    "checkJs": false,
+    "strict": true,
+    "skipLibCheck": true,
+  },
+  "include": [
+    "src/ts"
+  ]
+}
