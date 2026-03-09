@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es2022",
     "module": "none",
-    "outFile": "build/script.js",
+    "outFile": "src/script.js",
     "allowJs": true,
     "checkJs": false,
     "strict": true,
