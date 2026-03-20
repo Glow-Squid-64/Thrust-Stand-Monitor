@@ -58,8 +58,9 @@ window.app.ignition = (function(){
     slider!.style.width      = "0";
     slider!.style.visibility = "visible";
 
-    progress!.style.visibility = "collapse";
-    progress!.style.width      = "0";
+    progress!.style.visibility         = "collapse";
+    progress!.style.transitionDuration = "0s";
+    progress!.style.width = "0";
   }
 
   function startSlide(event: PointerEvent) {
@@ -107,7 +108,8 @@ window.app.ignition = (function(){
     getCode();
     // Using css animation, this gets handled automatically
     progress!.style.visibility = "visible";
-    progress!.style.width      = "100%";
+    progress!.style.transitionDuration = `${COUNTDOWN}s`;
+    progress!.style.width              = "100%";
 
     let id = setInterval(() => {
       if (state != "COUNTDOWN") {

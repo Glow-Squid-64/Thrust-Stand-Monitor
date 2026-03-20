@@ -56,5 +56,7 @@
 
   z-index: 0;
 
-  transition: width 3s linear;
+  transition-property: width;
+  transition-duration: 3s;
+  transition-timing-function: linear;
 }
