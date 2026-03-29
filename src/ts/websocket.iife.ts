@@ -16,7 +16,7 @@ window.app.websocket = (function(){
   if (!location.host)
     return;
 
-  const socket = new WebSocket("ws://"+location.host);
+  const socket = new WebSocket("ws://"+location.host+"/ws");
 
   socket.addEventListener("open", ()=> {
     socket.addEventListener("message", (e)=> {
