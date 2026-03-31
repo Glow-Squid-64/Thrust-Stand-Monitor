@@ -11,7 +11,7 @@ const app = express();
 app.use(express.static(app_src));
 
 const server = http.createServer(app);
-const socket = new WebSocketServer({ server }, path="/ws");
+const socket = new WebSocketServer({ server , path:"/ws"});
 
 socket.on("connection", (ws) => {
   console.log("New web socket established");

@@ -74,7 +74,7 @@
   {
     "action":"ignition.saveCode",
     "data":[
-      {"value":code}
+      {"value":"code"}
     ]
   }
   ```
@@ -87,9 +87,9 @@
   {
     "action":"ignition.start",
     "data": [
-      {"key":"0", "value":code1},
-      {"key":"1", "value":code2},
-      {"key":"2", "value":code3}
+      {"key":0, "value":"code1"},
+      {"key":1, "value":"code2"},
+      {"key":2, "value":"code3"}
     ]
   }
   ```

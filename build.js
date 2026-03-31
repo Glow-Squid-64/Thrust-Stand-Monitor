@@ -38,7 +38,7 @@ import {minify as jsMinify} from "terser"
     '<link rel="stylesheet" href="style.css">',
     `<style>${css_mini.code}</style>`
   );
-  const uplot_js   = fs.readFileSync("src/uPlot.iife.min.js");
+  const uplot_js = fs.readFileSync("src/uPlot.iife.min.js");
   html = html.replace(
     '<script src="uPlot.iife.min.js"></script>',
     `<script>${uplot_js.toString()}</script>`
